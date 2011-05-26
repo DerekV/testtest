@@ -1,0 +1,28 @@
+#ignore emacs locks and backup files
+*~
+.#*
+\#*
+
+#xcode ignores
+.DS__Store
+*.swp
+*~.nib
+
+build/
+
+#*.pbxuser
+#*.perspective
+#*.perspectivev3
+#  the pattern below replaces the above three patterns 
+#.xcodeproj/
+!*.xcodeproj/project.pbxproj
+
+#xcode "user specific settings"
+*.mode1v3
+*.mode2v3
+
+#xcode 4
+xcuserdata/
+
+#macOS 
+.DS_Store
