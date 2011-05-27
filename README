@@ -1,1 +1,5 @@
 This is a sandbox for playing with unit testing in xcode4/iOS
+There is a git submodule for asi-http-request
+You'll need to run a couple commands to clone the submodules
+see the git maunual for git-submodule
+I think the command is something like git submodule update --init --recursive from the root project directory
