@@ -30,6 +30,6 @@
 {
     // another test that fails
     testtestsAppDelegate *t = [testtestsAppDelegate new];
-    STAssertNil(t,@"Appdelegate object is not created.");
+    STAssertNotNil(t,@"Appdelegate object is not created.");
 }
 @end
